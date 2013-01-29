@@ -1,6 +1,6 @@
 # GMT cpt files
 ## Usage
-Locate `*.cpt` into `~/.gmt`.
+Copy `*.cpt` into `~/.gmt`.
 
     mkdir ~/.gmt
     cp gmt_cpt_files/*.cpt ~/.gmt
