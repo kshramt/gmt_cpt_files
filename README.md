@@ -1,8 +1,7 @@
-# GMT cpt files
+# GMT Color Pallet Files
 ## Usage
 Copy `*.cpt` into `~/.gmt`.
 
-    mkdir ~/.gmt
-    cp gmt_cpt_files/*.cpt ~/.gmt
-    cd work
+    ln -s $(pwd) ~/.gmt
+    cd ${WORKING_DIR}
     makecpt -Cglobe_light T0/1/0.1 -Z > globe_light.cpt
